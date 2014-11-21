@@ -15,7 +15,6 @@ namespace autobuyer
                 Level = Level.Gold,
                 League = League.Bundesliga,
                 Nation = Nation.Gabon,
-                Position = Position.RightMidfielder,
                 Team = Team.BorussiaDortmund,
                 MinBuy = 1
             };
@@ -62,6 +61,66 @@ namespace autobuyer
                 Nation = Nation.Germany,
                 Position = Position.RightMidfielder,
                 Team = Team.FCBayern,
+                MinBuy = 1
+            };
+        }
+
+        public static PlayerSearchParameters Doumbia(uint i = 1)
+        {
+            return new PlayerSearchParameters
+            {
+                Page = i,
+                PageSize = PageSize,
+                Level = Level.Gold,
+                League = League.RussianLeague,
+                Nation = Nation.IvoryCoast,
+                Position = Position.Striker,
+                Team = Team.CSKAMoskva,
+                MinBuy = 1
+            };
+        }
+
+        public static PlayerSearchParameters Mata(uint i = 1)
+        {
+            return new PlayerSearchParameters
+            {
+                Page = i,
+                PageSize = PageSize,
+                Level = Level.Gold,
+                League = League.BarclaysPremierLeague,
+                Nation = Nation.Spain,
+                Position = Position.CentralAttackingMidfielder,
+                Team = Team.ManchesterUnited,
+                MinBuy = 1
+            };
+        }
+
+        public static PlayerSearchParameters Henry(uint i = 1)
+        {
+            return new PlayerSearchParameters
+            {
+                Page = i,
+                PageSize = PageSize,
+                Level = Level.Gold,
+                League = League.Mls,
+                Nation = Nation.France,
+                Position = Position.LeftMidfielder,
+                Team = Team.NewYorkRedBulls,
+                MinBuy = 1
+            };
+        }
+
+        public static PlayerSearchParameters DonovanIF(uint i = 1)
+        {
+            return new PlayerSearchParameters
+            {
+                Page = i,
+                PageSize = PageSize,
+                Level = Level.Gold,
+                League = League.Mls,
+                Nation = Nation.UnitedStates,
+                Position = Position.LeftMidfielder,
+                Team = Team.LosAngelesGalaxy,
                 MinBuy = 1
             };
         }
