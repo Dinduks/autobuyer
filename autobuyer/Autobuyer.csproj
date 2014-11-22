@@ -66,6 +66,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util.cs" />
+    <Compile Include="WatchableItemInfo.cs" />
+    <Compile Include="WatchedItems.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

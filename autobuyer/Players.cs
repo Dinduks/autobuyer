@@ -1,15 +1,11 @@
 ﻿using UltimateTeam.Toolkit.Parameters;
 
-namespace autobuyer
-{
-    internal class Players
-    {
+namespace autobuyer {
+    internal class Players {
         private const byte PageSize = 49;
 
-        public static PlayerSearchParameters Aubameyang(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters Aubameyang(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,
@@ -20,10 +16,8 @@ namespace autobuyer
             };
         }
 
-        public static PlayerSearchParameters Sterling(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters Sterling(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,
@@ -35,10 +29,8 @@ namespace autobuyer
             };
         }
 
-        public static PlayerSearchParameters Shaqiri(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters Shaqiri(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,
@@ -50,10 +42,8 @@ namespace autobuyer
             };
         }
 
-        public static PlayerSearchParameters Muller(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters Muller(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,
@@ -65,10 +55,8 @@ namespace autobuyer
             };
         }
 
-        public static PlayerSearchParameters Doumbia(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters Doumbia(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,
@@ -80,10 +68,8 @@ namespace autobuyer
             };
         }
 
-        public static PlayerSearchParameters Mata(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters Mata(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,
@@ -95,10 +81,8 @@ namespace autobuyer
             };
         }
 
-        public static PlayerSearchParameters Henry(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters HenryIF(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,
@@ -110,10 +94,8 @@ namespace autobuyer
             };
         }
 
-        public static PlayerSearchParameters DonovanIF(uint i = 1)
-        {
-            return new PlayerSearchParameters
-            {
+        public static PlayerSearchParameters DonovanIF(uint i = 1) {
+            return new PlayerSearchParameters {
                 Page = i,
                 PageSize = PageSize,
                 Level = Level.Gold,

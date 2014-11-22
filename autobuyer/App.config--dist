@@ -8,5 +8,6 @@
     <add key="username" value="" />
     <add key="password" value="" />
     <add key="secretAnswer" value="" />
+    <add key="creditsThreshold" value="" />
   </appSettings>
 </configuration>

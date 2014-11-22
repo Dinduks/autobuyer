@@ -2,16 +2,12 @@
 using autobuyer;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AutobuyerTests
-{
+namespace AutobuyerTests {
     [TestClass]
-    public class UtilTests
-    {
+    public class UtilTests {
         [TestMethod]
-        public void RoundPriceTests()
-        {
-            var x = new Dictionary<double, double>
-            {
+        public void RoundPriceTests() {
+            var x = new Dictionary<double, double> {
                 {0, 150},
                 {150, 200},
                 {157.1, 200},
@@ -41,8 +37,7 @@ namespace AutobuyerTests
                 {1000007.1, 1001000}
             };
 
-            foreach (var pair in x)
-            {
+            foreach (var pair in x) {
                 Assert.AreEqual(pair.Value, Util.RoundPrice(pair.Key));
             }
         }
